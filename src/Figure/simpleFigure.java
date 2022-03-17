@@ -3,7 +3,8 @@ package Figure;
 public class simpleFigure {
     protected int a , b;
 
-    public simpleFigure() {
+    public simpleFigure(int a) {
+        this.a = a;
     }
 
     public simpleFigure(int a, int b) {

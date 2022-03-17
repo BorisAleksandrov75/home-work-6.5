@@ -1,11 +1,20 @@
-import Figure.square;
+import Figure.Trapeze;
+import Figure.circle;
+import Figure.rectangle;
+import Figure.righttriangle;
+
+import java.util.Scanner;
 
 public class main {
 
     public static void main(String[] args) {
-        square square1 = new square(4,4);
-        System.out.println(square1.areaCalculation());
-        System.out.println(square1.perimetrCalculation());
+        Scanner scn = new Scanner(System.in);
+
+        do {
+
+
+        }
+
     }
 
 }
